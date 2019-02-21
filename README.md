@@ -10,8 +10,8 @@ Invoke-Clipboard has two methods of being called; one for clipboard logging/harv
 
 ```powershell
 Invoke-ClipboardLogger - monitors the Clipboard
-Invoke-ClipboardC2C	-	command and control over Clipboard (client)
-Invoke-ClipboardC2V	-	command and control over Clipboard (victim)
+Invoke-ClipboardC2C - command and control over Clipboard (client)
+Invoke-ClipboardC2V - command and control over Clipboard (victim)
 ```
 
 ### Misc Functions
@@ -25,8 +25,8 @@ get_cb - gets whats in the Clipboard
 
 ```powershell
 Invoke-ClipboardLogger - Invoke-ClipboardLogger
-Invoke-ClipboardC2C	-	Invoke-ClipboardC2C -message "gwmi -class Win32_Process"
-Invoke-ClipboardC2V	-	Invoke-ClipboardC2V
+Invoke-ClipboardC2C - Invoke-ClipboardC2C -message "gwmi -class Win32_Process"
+Invoke-ClipboardC2V - Invoke-ClipboardC2V
 ```
 
 ## References

@@ -9,7 +9,7 @@ Invoke-Clipboard has two methods of being called; one for clipboard logging/harv
 ### Main Functions
 
 ```powershell
-Invoke-ClipboardLogger  -  monitors the Clipboard
+Invoke-ClipboardLogger - monitors the Clipboard
 Invoke-ClipboardC2C	-	command and control over Clipboard (client)
 Invoke-ClipboardC2V	-	command and control over Clipboard (victim)
 ```

@@ -9,24 +9,24 @@ Invoke-Clipboard has two methods of being called; one for clipboard logging/harv
 ### Main Functions
 
 ```powershell
-Invoke-ClipboardLogger  -   monitors the Clipboard
-Invoke-ClipboardC2C		-	command and control over Clipboard (client)
-Invoke-ClipboardC2V		-	command and control over Clipboard (victim)
+Invoke-ClipboardLogger  -  monitors the Clipboard
+Invoke-ClipboardC2C	-	command and control over Clipboard (client)
+Invoke-ClipboardC2V	-	command and control over Clipboard (victim)
 ```
 
 ### Misc Functions
 
 ```powershell
-push_cb         	    -   pushes to the Clipboard
-get_cb					-	gets whats in the Clipboard
+push_cb - pushes to the Clipboard
+get_cb - gets whats in the Clipboard
 ```
 
 ## Usage
 
 ```powershell
-Invoke-ClipboardLogger  -   Invoke-ClipboardLogger
-Invoke-ClipboardC2C		-	Invoke-ClipboardC2C -message "gwmi -class Win32_Process"
-Invoke-ClipboardC2V		-	Invoke-ClipboardC2V
+Invoke-ClipboardLogger - Invoke-ClipboardLogger
+Invoke-ClipboardC2C	-	Invoke-ClipboardC2C -message "gwmi -class Win32_Process"
+Invoke-ClipboardC2V	-	Invoke-ClipboardC2V
 ```
 
 ## References
@@ -34,4 +34,8 @@ Invoke-ClipboardC2V		-	Invoke-ClipboardC2V
 - StringToHGlobalUni - <https://msdn.microsoft.com/en-us/library/system.runtime.interopservices.marshal.stringtohglobaluni(v=vs.110).aspx>
 - GetClipboardData - <https://msdn.microsoft.com/en-us/library/windows/desktop/ms649039(v=vs.85).aspx>
 - ClipboardFormats - <https://msdn.microsoft.com/en-us/library/windows/desktop/ms649013(v=vs.85).aspx#_win32_Standard_Clipboard_Formats>
+
+## Blog
+
+- https://www.inguardians.com/2019/02/06/all-your-copy-paste-are-belong-to-us/
 
